@@ -1,41 +1,17 @@
-# Prerequisites
+# Arduino Build Files 
+build/
+*.hex
+*.bin
+*.elf
+*.map
+*.uf2
+
+# Temp & Junk Files 
 *.d
-
-# Compiled Object files
-*.slo
-*.lo
 *.o
-*.obj
+*.lst
+.DS_Store
+Thumbs.db
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# Secrets
+arduino_secrets.h
